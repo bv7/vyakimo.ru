@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <base href="/vyakimo.ru/">
+  <base href="/">
   <script>
     (function() {
       const base = document.querySelector('base');
-      if (!window.location.hostname.includes('github.io')) {
-        base.href = '/';
+      // Если мы на GitHub Pages (до домена) — добавляем /vyakimo.ru/
+      if (window.location.hostname.includes('github.io')) {
+        base.href = '/vyakimo.ru/';
       }
     })();
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <base id="baseTag" href="/vyakimo.ru/">
+  <base id="baseTag" href="/">
   <script>
     (function() {
       const base = document.getElementById('baseTag');
       if (window.location.hostname.includes('github.io')) {
-        base.href = '/vyakimo.ru/';
+        base.href = '/';
       }
     })();
   </script>
@@ -40,8 +41,8 @@
   <link rel="stylesheet" href="assets/css/gallery.css">
   
   <!-- Favicon -->
-  <link rel="icon" href="/vyakimo.ru/favicon.ico">
-  <link rel="icon" href="/vyakimo.ru/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
 <body>
   <!-- Динамическая шапка -->
@@ -52,7 +53,7 @@
       
       <!-- ========== ХЛЕБНЫЕ КРОШКИ ========== -->
       <nav class="breadcrumbs" aria-label="Хлебные крошки">
-        <a href="/vyakimo.ru/">Главная</a>
+        <a href="/">Главная</a>
         <span class="separator">/</span>
         
         <!-- Если это подкатегория, показываем ссылку на родительскую категорию -->
@@ -117,9 +118,9 @@
   <div id="footer-container"></div>
 
   <!-- Скрипты -->
-  <script src="/vyakimo.ru/includes/loader.js"></script>
-  <script src="/vyakimo.ru/assets/js/burger-menu.js"></script>
-  <script src="/vyakimo.ru/assets/js/lightbox.js"></script>
+  <script src="/includes/loader.js"></script>
+  <script src="/assets/js/burger-menu.js"></script>
+  <script src="/assets/js/lightbox.js"></script>
   
   <!-- Данные для галереи -->
   <script>
