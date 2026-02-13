@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <base href="/">
+  <script>
+    (function() {
+      const base = document.querySelector('base');
+      // Если мы на GitHub Pages (до домена) — добавляем /vyakimo.ru/
+      if (window.location.hostname.includes('github.io')) {
+        base.href = '/vyakimo.ru/';
+      }
+    })();
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Виталий Якимов (Vitale Yakimо) — фотограф из Рязани. Кинематографичные портреты и эмоциональные истории.">
+  <title>Vitale Yakimо — Фотограф, Рязань</title>
+  <link rel="stylesheet" href="/assets/css/pico.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <!-- <link rel="icon" href="/favicon.svg" type="image/svg+xml"> -->
+</head>
+<body>
+  <!-- Шапка будет загружена через JS -->
+  <div id="header-container"></div>
+
+  <!-- Контент -->
+  <main>
+    <!-- Герой-секция -->
+    <section id="hero" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-inner">
+          <img src="/assets/hero-bg.webp" alt="Фотограф Виталий Якимов" class="hero-image">
+          <div class="hero-content">
+            <h1>Vitale Yakimо</h1>
+            <p class="hero-subtitle">Эмоциональные истории через объектив</p>
+            <a href="#categories" class="hero-btn">Посмотреть портфолио</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- О себе -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-content">
+          <img src="/assets/about-photo.webp" alt="Виталий Якимов — фотограф" class="about-photo">
+          <div class="about-text">
+            <h2>Обо мне</h2>
+            <p>Меня зовут Виталий Якимов, и я фотограф из Рязани. С 2020 года я создаю визуальные истории, которые передают глубину человеческих эмоций и характеров.</p>
+            <p>Мой подход к фотографии вдохновлён кинематографом и музыкой с глубокими смыслами. Я верю, что каждая фотография — это кадр из фильма, который рассказывает историю без слов.</p>
+            <p>Я работаю только с объективами 50мм и диафрагмой f/1.8 или меньше, чтобы создавать эффектное размытие фона и акцентировать внимание на эмоциях модели.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+	<!-- СЕКЦИЯ ДО/ПОСЛЕ -->
+	<section id="before-after" class="categories-section">
+	  <div class="container">
+		<h2>До и После</h2>
+		<p class="section-subtitle">Проведите по фото, чтобы увидеть разницу</p>
+		<div class="ba-grid">
+		  <!-- СЮДА ВСТАВЛЯТЬ СОДЕРЖИМОЕ ИЗ ba-cards.html -->
+		  
+		</div>
+	  </div>
+	</section>
+	
+    <!-- ===== ПОРТФОЛИО (АВТОГЕНЕРАЦИЯ) ===== -->
+    <section id="categories" class="categories-section">
+      <div class="container">
+        <h2>Портфолио</h2>
+        <div class="categories-grid">
+          
+      <a href="/portfolio/man.html" class="category-card">
+        <img src="/portfolio/man/cover.webp" alt="Мужской портрет" class="category-image">
+        <div class="category-overlay">
+          <h3 class="category-title">Мужской портрет</h3>
+        </div>
+      </a>
+    
+      <a href="/portfolio/woman.html" class="category-card">
+        <img src="/portfolio/woman/cover.webp" alt="Женский портрет" class="category-image">
+        <div class="category-overlay">
+          <h3 class="category-title">Женский портрет</h3>
+        </div>
+      </a>
+    
+      <a href="/portfolio/family.html" class="category-card">
+        <img src="/portfolio/family/cover.webp" alt="Семейный портрет" class="category-image">
+        <div class="category-overlay">
+          <h3 class="category-title">Семейный портрет</h3>
+        </div>
+      </a>
+    
+        </div>
+      </div>
+    </section>
+    
+    <!-- Контакты -->
+    <section id="contacts" class="contacts-section">
+      <div class="container">
+        <h2>Связаться со мной</h2>
+        <div class="contact-links">
+          <a href="mailto:vitale@vyakimo.ru" class="contact-link">
+            <i class="fas fa-envelope"></i>
+            photo@vitale-yakimo.ru
+          </a>
+          <a href="tel:+7(933)113-55-42" class="contact-link">
+            <i class="fas fa-phone"></i>
+            +7 (933) 113-55-42
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="https://vk.com/vyakimo_rzn" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="ВКонтакте">
+            <img src="/assets/icons/brand-vk.svg" alt="VK" width="24" height="24">
+          </a>
+          <a href="https://t.me/VYakimo" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Telegram">
+            <img src="/assets/icons/brand-telegram.svg" alt="Telegram" width="24" height="24">
+          </a>
+          <a href="https://pin.it/799VKqsYG" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Pinterest">
+            <img src="/assets/icons/brand-pinterest.svg" alt="Pinterest" width="24" height="24">
+          </a>
+          <a href="https://max.ru/u/f9LHodD0cOJ4nu5LP7pG-1a7LNIznHz2eYQPPP7HZ40hRn6M4qISJ4g_m9I" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="VAX">
+            <img src="/assets/icons/brand-max-1.svg" alt="MAX" width="24" height="24">
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал будет загружен через JS -->
+  <div id="footer-container"></div>
+
+  <!-- Скрипты -->
+  <script src="/includes/loader.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/burger-menu.js"></script>
+  <script src="/assets/js/before-after.js"></script>
+</body>
+</html>

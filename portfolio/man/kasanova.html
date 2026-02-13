@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <base href="/">
+  <script>
+    (function() {
+      const base = document.querySelector('base');
+      // Если мы на GitHub Pages (до домена) — добавляем /vyakimo.ru/
+      if (window.location.hostname.includes('github.io')) {
+        base.href = '/vyakimo.ru/';
+      }
+    })();
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base id="baseTag" href="/">
+  <script>
+    (function() {
+      const base = document.getElementById('baseTag');
+      if (window.location.hostname.includes('github.io')) {
+        base.href = '/';
+      }
+    })();
+  </script>
+  <!-- Динамические мета-данные -->
+  <title>Казанова | Vitale Yakimo</title>
+  <meta name="description" content="Арт портрет">
+  
+  <!-- Open Graph для соцсетей -->
+  <meta property="og:title" content="Казанова | Vitale Yakimo">
+  <meta property="og:description" content="Арт портрет">
+  <meta property="og:image" content="https://portfolio/man/kasanova/cover.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vyakimo.ru{PAGE_URL}">
+  
+  <!-- Шрифты и стили -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/gallery.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <!-- Динамическая шапка -->
+  <div id="header-container"></div>
+
+  <main class="portfolio-category-page">
+    <div class="container">
+      
+      <!-- ========== ХЛЕБНЫЕ КРОШКИ ========== -->
+      <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <a href="/">Главная</a>
+        <span class="separator">/</span>
+        
+        <!-- Если это подкатегория, показываем ссылку на родительскую категорию -->
+        
+    <a href="/portfolio/man.html">Мужской портрет</a>
+    <span class="separator">/</span>
+  
+        
+        <span class="current">Казанова</span>
+      </nav>
+      
+      <!-- ========== ЗАГОЛОВОК ========== -->
+      <header class="category-header">
+        <h1>Казанова</h1>
+        <!-- <p class="category-count"> работ</p> -->
+        <p class="category-description">Арт портрет</p>
+      </header>
+      
+      <!-- ========== ПОДКАТЕГОРИИ (только для категорий) ========== -->
+      
+      
+      <!-- ========== ГАЛЕРЕЯ ФОТО ========== -->
+      <section class="photo-gallery" id="gallery">
+        <!-- Заголовок галереи удален -->
+        <!-- <h2 class="gallery-title">{GALLERY_TITLE}</h2> -->
+        <div class="gallery-grid" id="galleryGrid">
+          
+    <a href="/portfolio/man/kasanova/037_photo_31-01-26.webp" class="gallery-item" data-index="0">
+      <img src="/portfolio/man/kasanova/037_photo_31-01-26.webp" alt="Казанова 1" 
+           class="gallery-image" loading="eager" width="400" height="300">
+    </a>
+  
+    <a href="/portfolio/man/kasanova/037_photo_31-01-26_BW.webp" class="gallery-item" data-index="1">
+      <img src="/portfolio/man/kasanova/037_photo_31-01-26_BW.webp" alt="Казанова 2" 
+           class="gallery-image" loading="eager" width="400" height="300">
+    </a>
+  
+    <a href="/portfolio/man/kasanova/036_photo_31-01-26.webp" class="gallery-item" data-index="2">
+      <img src="/portfolio/man/kasanova/036_photo_31-01-26.webp" alt="Казанова 3" 
+           class="gallery-image" loading="eager" width="400" height="300">
+    </a>
+  
+    <a href="/portfolio/man/kasanova/036_photo_31-01-26_BW.webp" class="gallery-item" data-index="3">
+      <img src="/portfolio/man/kasanova/036_photo_31-01-26_BW.webp" alt="Казанова 4" 
+           class="gallery-image" loading="eager" width="400" height="300">
+    </a>
+  
+    <a href="/portfolio/man/kasanova/035_photo_31-01-26.webp" class="gallery-item" data-index="4">
+      <img src="/portfolio/man/kasanova/035_photo_31-01-26.webp" alt="Казанова 5" 
+           class="gallery-image" loading="eager" width="400" height="300">
+    </a>
+  
+    <a href="/portfolio/man/kasanova/035_photo_31-01-26_BW.webp" class="gallery-item" data-index="5">
+      <img src="/portfolio/man/kasanova/035_photo_31-01-26_BW.webp" alt="Казанова 6" 
+           class="gallery-image" loading="eager" width="400" height="300">
+    </a>
+  
+    <a href="/portfolio/man/kasanova/034_photo_31-01-26.webp" class="gallery-item" data-index="6">
+      <img src="/portfolio/man/kasanova/034_photo_31-01-26.webp" alt="Казанова 7" 
+           class="gallery-image" loading="lazy" width="400" height="300">
+    </a>
+  
+    <a href="/portfolio/man/kasanova/034_photo_31-01-26_BW.webp" class="gallery-item" data-index="7">
+      <img src="/portfolio/man/kasanova/034_photo_31-01-26_BW.webp" alt="Казанова 8" 
+           class="gallery-image" loading="lazy" width="400" height="300">
+    </a>
+  
+    <a href="/portfolio/man/kasanova/033_photo_31-01-26.webp" class="gallery-item" data-index="8">
+      <img src="/portfolio/man/kasanova/033_photo_31-01-26.webp" alt="Казанова 9" 
+           class="gallery-image" loading="lazy" width="400" height="300">
+    </a>
+  
+    <a href="/portfolio/man/kasanova/033_photo_31-01-26_BW.webp" class="gallery-item" data-index="9">
+      <img src="/portfolio/man/kasanova/033_photo_31-01-26_BW.webp" alt="Казанова 10" 
+           class="gallery-image" loading="lazy" width="400" height="300">
+    </a>
+  
+    <a href="/portfolio/man/kasanova/032_photo_31-01-26.webp" class="gallery-item" data-index="10">
+      <img src="/portfolio/man/kasanova/032_photo_31-01-26.webp" alt="Казанова 11" 
+           class="gallery-image" loading="lazy" width="400" height="300">
+    </a>
+  
+    <a href="/portfolio/man/kasanova/032_photo_31-01-26_BW.webp" class="gallery-item" data-index="11">
+      <img src="/portfolio/man/kasanova/032_photo_31-01-26_BW.webp" alt="Казанова 12" 
+           class="gallery-image" loading="lazy" width="400" height="300">
+    </a>
+  
+        </div>
+        
+        <!-- Индикатор загрузки -->
+        <div class="loading-indicator" id="loadingIndicator" style="display: none;">
+          <div class="spinner"></div>
+          <p>Загружаем фото...</p>
+        </div>
+
+                <!-- КНОПКА "ПОКАЗАТЬ ЕЩЕ" -->
+        <div class="gallery-load-more" id="loadMoreContainer">
+          <button class="load-more-btn" id="loadMoreBtn">
+            <span>Показать еще</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M12 5v14M5 12h14" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+          <div class="loading-spinner" id="loadingSpinner" style="display: none;">
+            <div class="spinner"></div>
+            <span>Загрузка...</span>
+          </div>
+        </div>
+      </section>
+      
+      <!-- ========== КНОПКА НАЗАД ========== -->
+      <div class="back-to-home">
+        <a href="/portfolio/man.html" class="back-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M19 12H5M12 19l-7-7 7-7" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          Назад к Мужской портрет
+        </a>
+      </div>
+      
+    </div>
+  </main>
+
+  <!-- Динамический подвал -->
+  <div id="footer-container"></div>
+
+  <!-- Скрипты -->
+  <script src="/includes/loader.js"></script>
+  <script src="/assets/js/burger-menu.js"></script>
+  <script src="/assets/js/lightbox.js"></script>
+  
+  <!-- Данные для галереи -->
+  <script>
+    window.categoryData = {
+      slug: 'kasanova',
+      title: 'Казанова',
+      totalPhotos: 34,
+      photos: ["/portfolio/man/kasanova/037_photo_31-01-26.webp","/portfolio/man/kasanova/037_photo_31-01-26_BW.webp","/portfolio/man/kasanova/036_photo_31-01-26.webp","/portfolio/man/kasanova/036_photo_31-01-26_BW.webp","/portfolio/man/kasanova/035_photo_31-01-26.webp","/portfolio/man/kasanova/035_photo_31-01-26_BW.webp","/portfolio/man/kasanova/034_photo_31-01-26.webp","/portfolio/man/kasanova/034_photo_31-01-26_BW.webp","/portfolio/man/kasanova/033_photo_31-01-26.webp","/portfolio/man/kasanova/033_photo_31-01-26_BW.webp","/portfolio/man/kasanova/032_photo_31-01-26.webp","/portfolio/man/kasanova/032_photo_31-01-26_BW.webp","/portfolio/man/kasanova/031_photo_31-01-26.webp","/portfolio/man/kasanova/031_photo_31-01-26_BW.webp","/portfolio/man/kasanova/030_photo_31-01-26.webp","/portfolio/man/kasanova/030_photo_31-01-26_BW.webp","/portfolio/man/kasanova/029_photo_31-01-26.webp","/portfolio/man/kasanova/029_photo_31-01-26_BW.webp","/portfolio/man/kasanova/027_photo_31-01-26.webp","/portfolio/man/kasanova/027_photo_31-01-26_BW.webp","/portfolio/man/kasanova/026_photo_31-01-26.webp","/portfolio/man/kasanova/026_photo_31-01-26_BW.webp","/portfolio/man/kasanova/025_photo_31-01-26.webp","/portfolio/man/kasanova/025_photo_31-01-26_BW.webp","/portfolio/man/kasanova/024_photo_31-01-26.webp","/portfolio/man/kasanova/024_photo_31-01-26_BW.webp","/portfolio/man/kasanova/023_photo_31-01-26.webp","/portfolio/man/kasanova/023_photo_31-01-26_BW.webp","/portfolio/man/kasanova/022_photo_31-01-26.webp","/portfolio/man/kasanova/022_photo_31-01-26_BW.webp","/portfolio/man/kasanova/021_photo_31-01-26.webp","/portfolio/man/kasanova/021_photo_31-01-26_BW.webp","/portfolio/man/kasanova/020_photo_31-01-26.webp","/portfolio/man/kasanova/020_photo_31-01-26_BW.webp"]//,
+      // isSubcategory: {IS_SUBCATEGORY},
+      // parentSlug: '{PARENT_SLUG}'
+    };
+  </script>
+  
+  <!-- Инициализация галереи -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof initGallery === 'function') {
+        initGallery(window.categoryData);
+      }
+    });
+  </script>
+</body>
+</html>
