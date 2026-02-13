@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <base href="/vyakimo.ru/vyakimo.ru/">
+  <script>
+    (function() {
+      const base = document.querySelector('base');
+      if (!window.location.hostname.includes('github.io')) {
+        base.href = '/';
+      }
+    })();
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base id="baseTag" href="/vyakimo.ru/">
+  <script>
+    (function() {
+      const base = document.getElementById('baseTag');
+      if (window.location.hostname.includes('github.io')) {
+        base.href = '/vyakimo.ru/';
+      }
+    })();
+  </script>
+  <!-- Динамические мета-данные -->
+  <title>{PAGE_TITLE} | Vitale Yakimo</title>
+  <meta name="description" content="{PAGE_DESCRIPTION}">
+  
+  <!-- Open Graph для соцсетей -->
+  <meta property="og:title" content="{PAGE_TITLE} | Vitale Yakimo">
+  <meta property="og:description" content="{PAGE_DESCRIPTION}">
+  <meta property="og:image" content="{COVER_IMAGE}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://{DOMAIN}{PAGE_URL}">
+  
+  <!-- Шрифты и стили -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/gallery.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="/vyakimo.ru/favicon.ico">
+  <link rel="icon" href="/vyakimo.ru/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <!-- Динамическая шапка -->
+  <div id="header-container"></div>
+
+  <main class="portfolio-category-page">
+    <div class="container">
+      
+      <!-- ========== ХЛЕБНЫЕ КРОШКИ ========== -->
+      <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <a href="/vyakimo.ru/">Главная</a>
+        <span class="separator">/</span>
+        
+        <!-- Если это подкатегория, показываем ссылку на родительскую категорию -->
+        {BREADCRUMBS}
+        
+        <span class="current">{PAGE_TITLE}</span>
+      </nav>
+      
+      <!-- ========== ЗАГОЛОВОК ========== -->
+      <header class="category-header">
+        <h1>{PAGE_TITLE}</h1>
+        <!-- <p class="category-count">{PHOTO_COUNT} работ</p> -->
+        {PAGE_DESCRIPTION_HTML}
+      </header>
+      
+      <!-- ========== ПОДКАТЕГОРИИ (только для категорий) ========== -->
+      {SUBCATEGORIES_BLOCK}
+      
+      <!-- ========== ГАЛЕРЕЯ ФОТО ========== -->
+      <section class="photo-gallery" id="gallery">
+        <!-- Заголовок галереи удален -->
+        <!-- <h2 class="gallery-title">{GALLERY_TITLE}</h2> -->
+        <div class="gallery-grid" id="galleryGrid">
+          {GALLERY_IMAGES}
+        </div>
+        
+        <!-- Индикатор загрузки -->
+        <div class="loading-indicator" id="loadingIndicator" style="display: none;">
+          <div class="spinner"></div>
+          <p>Загружаем фото...</p>
+        </div>
+
+                <!-- КНОПКА "ПОКАЗАТЬ ЕЩЕ" -->
+        <div class="gallery-load-more" id="loadMoreContainer">
+          <button class="load-more-btn" id="loadMoreBtn">
+            <span>Показать еще</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M12 5v14M5 12h14" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+          <div class="loading-spinner" id="loadingSpinner" style="display: none;">
+            <div class="spinner"></div>
+            <span>Загрузка...</span>
+          </div>
+        </div>
+      </section>
+      
+      <!-- ========== КНОПКА НАЗАД ========== -->
+      <div class="back-to-home">
+        <a href="{BACK_LINK}" class="back-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M19 12H5M12 19l-7-7 7-7" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          {BACK_TEXT}
+        </a>
+      </div>
+      
+    </div>
+  </main>
+
+  <!-- Динамический подвал -->
+  <div id="footer-container"></div>
+
+  <!-- Скрипты -->
+  <script src="/vyakimo.ru/includes/loader.js"></script>
+  <script src="/vyakimo.ru/assets/js/burger-menu.js"></script>
+  <script src="/vyakimo.ru/assets/js/lightbox.js"></script>
+  
+  <!-- Данные для галереи -->
+  <script>
+    window.categoryData = {
+      slug: '{PAGE_SLUG}',
+      title: '{PAGE_TITLE}',
+      totalPhotos: {TOTAL_PHOTOS_NUM},
+      photos: {PHOTO_ARRAY_JSON}//,
+      // isSubcategory: {IS_SUBCATEGORY},
+      // parentSlug: '{PARENT_SLUG}'
+    };
+  </script>
+  
+  <!-- Инициализация галереи -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof initGallery === 'function') {
+        initGallery(window.categoryData);
+      }
+    });
+  </script>
+</body>
+</html>
