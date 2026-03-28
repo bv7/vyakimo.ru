@@ -1,33 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Publications on Vitale Yakimo | Фотограф</title>
-    <link>http://localhost:1313/vyakimo.ru/categories/publications/</link>
-    <description>Recent content in Publications on Vitale Yakimo | Фотограф</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ru-ru</language>
-    <managingEditor>bv72006@ya.ru (Vitale Yakimo)</managingEditor>
-    <webMaster>bv72006@ya.ru (Vitale Yakimo)</webMaster>
-    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/vyakimo.ru/categories/publications/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Blush Vol. 291</title>
-      <link>http://localhost:1313/vyakimo.ru/publications/blush-vol-291/</link>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author>
-      <guid>http://localhost:1313/vyakimo.ru/publications/blush-vol-291/</guid>
-        <media:content url="http://localhost:1313/vyakimo.ru/publications/blush-vol-291/blush%20vol%20291_1_hu_7aae775350d973e1.webp" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;http://localhost:1313/vyakimo.ru/publications/blush-vol-291/blush%20vol%20291_1_hu_7aae775350d973e1.webp&quot; /&gt;
-          &lt;p&gt;Публикация в журнале Blush&lt;/p&gt;
-        </description></item>
-    <item>
-      <title>Darkly Vol. 561</title>
-      <link>http://localhost:1313/vyakimo.ru/publications/darkly-vol-561/</link>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author>
-      <guid>http://localhost:1313/vyakimo.ru/publications/darkly-vol-561/</guid>
-        <media:content url="http://localhost:1313/vyakimo.ru/publications/darkly-vol-561/cover_hu_fb05b4b495cfd0fc.webp" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;http://localhost:1313/vyakimo.ru/publications/darkly-vol-561/cover_hu_fb05b4b495cfd0fc.webp&quot; /&gt;
-          &lt;p&gt;Публикация в журнале Darkly&lt;/p&gt;
-        </description></item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Publications on Vitale Yakimo | Фотограф</title><link>https:/bv7.github.io/vyakimo.ru/categories/publications/</link><description>Recent content in Publications on Vitale Yakimo | Фотограф</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><managingEditor>bv72006@ya.ru (Vitale Yakimo)</managingEditor><webMaster>bv72006@ya.ru (Vitale Yakimo)</webMaster><lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https:/bv7.github.io/vyakimo.ru/categories/publications/index.xml" rel="self" type="application/rss+xml"/><item><title>Blush Vol. 291</title><link>https:/bv7.github.io/vyakimo.ru/publications/blush-vol-291/</link><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author><guid>https:/bv7.github.io/vyakimo.ru/publications/blush-vol-291/</guid><media:content url="https:/bv7.github.io/vyakimo.ru/publications/blush-vol-291/blush%20vol%20291_1_hu_7aae775350d973e1.webp" type="image/jpeg"/><description>
+&lt;img src="https:/bv7.github.io/vyakimo.ru/publications/blush-vol-291/blush%20vol%20291_1_hu_7aae775350d973e1.webp" /&gt;
+&lt;p&gt;Публикация в журнале Blush&lt;/p&gt;</description></item><item><title>Darkly Vol. 561</title><link>https:/bv7.github.io/vyakimo.ru/publications/darkly-vol-561/</link><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author><guid>https:/bv7.github.io/vyakimo.ru/publications/darkly-vol-561/</guid><media:content url="https:/bv7.github.io/vyakimo.ru/publications/darkly-vol-561/cover_hu_fb05b4b495cfd0fc.webp" type="image/jpeg"/><description>
+&lt;img src="https:/bv7.github.io/vyakimo.ru/publications/darkly-vol-561/cover_hu_fb05b4b495cfd0fc.webp" /&gt;
+&lt;p&gt;Публикация в журнале Darkly&lt;/p&gt;</description></item></channel></rss>
