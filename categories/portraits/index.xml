@@ -8,7 +8,24 @@
     <language>ru-ru</language>
     <managingEditor>bv72006@ya.ru (Vitale Yakimo)</managingEditor>
     <webMaster>bv72006@ya.ru (Vitale Yakimo)</webMaster>
-    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/portraits/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/portraits/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Улица Роз: Городская элегия</title>
+      <link>http://localhost:1313/art/rouses-street/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author>
+      <guid>http://localhost:1313/art/rouses-street/</guid>
+        <media:content url="http://localhost:1313/art/rouses-street/cover_hu_95bed947fdeffba6.webp" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/art/rouses-street/cover_hu_95bed947fdeffba6.webp&quot; /&gt;
+          &lt;p&gt;🥀 Улица Роз
+из серии «Городские истории»
+Автор: Vitale Yakimо
+
+
+Кинематографичная фотоистория об одиночестве и ожидании в вечернем городе.
+Серия исследует контраст между холодной урбанистикой и живым чувством.
+От задумчивости на ступенях до финальной точки на ночной скамейке — немой монолог героя на фоне огней большого города.&lt;/p&gt;
+        </description></item>
     <item>
       <title>Женский портрет</title>
       <link>http://localhost:1313/portraits/women/</link>

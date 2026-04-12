@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Портрет on Vitale Yakimo | Фотограф</title>
+    <link>http://localhost:1313/tags/%D0%BF%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82/</link>
+    <description>Recent content in Портрет on Vitale Yakimo | Фотограф</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <managingEditor>bv72006@ya.ru (Vitale Yakimo)</managingEditor>
+    <webMaster>bv72006@ya.ru (Vitale Yakimo)</webMaster>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%D0%BF%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Улица Роз: Городская элегия</title>
+      <link>http://localhost:1313/art/rouses-street/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author>
+      <guid>http://localhost:1313/art/rouses-street/</guid>
+        <media:content url="http://localhost:1313/art/rouses-street/cover_hu_95bed947fdeffba6.webp" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/art/rouses-street/cover_hu_95bed947fdeffba6.webp&quot; /&gt;
+          &lt;p&gt;🥀 Улица Роз
+из серии «Городские истории»
+Автор: Vitale Yakimо
+
+
+Кинематографичная фотоистория об одиночестве и ожидании в вечернем городе.
+Серия исследует контраст между холодной урбанистикой и живым чувством.
+От задумчивости на ступенях до финальной точки на ночной скамейке — немой монолог героя на фоне огней большого города.&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>
