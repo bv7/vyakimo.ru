@@ -11,15 +11,6 @@
     <loc>http://localhost:1313/publications/</loc>
     <lastmod>2026-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/art/</loc>
-    <lastmod>2026-04-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-04-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/portraits/</loc>
-    <lastmod>2026-04-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -75,9 +66,6 @@
     <lastmod>2026-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publications/darkly-vol-561/</loc>
-    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/publications/</loc>
     <lastmod>2026-03-20T00:00:00+00:00</lastmod>
   </url>
 </urlset>
