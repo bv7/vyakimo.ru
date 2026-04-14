@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Vitale Yakimo | Фотограф</title>
+    <link>http://localhost:1313/categories/publications/</link>
+    <description>Recent content in Publications on Vitale Yakimo | Фотограф</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <managingEditor>bv72006@ya.ru (Vitale Yakimo)</managingEditor>
+    <webMaster>bv72006@ya.ru (Vitale Yakimo)</webMaster>
+    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blush Vol. 291</title>
+      <link>http://localhost:1313/publications/blush-vol-291/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author>
+      <guid>http://localhost:1313/publications/blush-vol-291/</guid>
+        <media:content url="http://localhost:1313/publications/blush-vol-291/01-muzhskoy-modeler-aaron-uilyams-na_hu_7aae775350d973e1.webp" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/publications/blush-vol-291/01-muzhskoy-modeler-aaron-uilyams-na_hu_7aae775350d973e1.webp&quot; /&gt;
+          &lt;p&gt;Публикация в журнале Blush&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Darkly Vol. 561</title>
+      <link>http://localhost:1313/publications/darkly-vol-561/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author>
+      <guid>http://localhost:1313/publications/darkly-vol-561/</guid>
+        <media:content url="http://localhost:1313/publications/darkly-vol-561/01-model-v-chernom-plate-na_hu_6222457215f3af2.webp" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/publications/darkly-vol-561/01-model-v-chernom-plate-na_hu_6222457215f3af2.webp&quot; /&gt;
+          &lt;p&gt;Публикация в журнале Darkly&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>
