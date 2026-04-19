@@ -2,82 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://vyakimo.ru/portraits/</loc>
+    <loc>http://localhost:1313/portraits/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/art/</loc>
+    <loc>http://localhost:1313/art/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/publications/</loc>
+    <loc>http://localhost:1313/publications/</loc>
     <lastmod>2026-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/categories/art/</loc>
+    <loc>http://localhost:1313/categories/art/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/categories/portraits/</loc>
+    <loc>http://localhost:1313/categories/portraits/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/tags/vitale-yakim%D0%BE/</loc>
+    <loc>http://localhost:1313/tags/vitale-yakim%D0%BE/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/tags/%D0%BA%D0%B8%D0%BDo/</loc>
+    <loc>http://localhost:1313/tags/%D0%BA%D0%B8%D0%BDo/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/tags/%D0%BD%D0%BE%D1%87%D0%BD%D0%BE%D0%B9-%D0%B3%D0%BE%D1%80%D0%BE%D0%B4/</loc>
+    <loc>http://localhost:1313/tags/%D0%BD%D0%BE%D1%87%D0%BD%D0%BE%D0%B9-%D0%B3%D0%BE%D1%80%D0%BE%D0%B4/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/tags/%D0%BE%D0%B4%D0%B8%D0%BD%D0%BE%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE/</loc>
+    <loc>http://localhost:1313/tags/%D0%BE%D0%B4%D0%B8%D0%BD%D0%BE%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/tags/%D0%BF%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82/</loc>
+    <loc>http://localhost:1313/tags/%D0%BF%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/tags/%D1%80%D0%BE%D0%B7a/</loc>
+    <loc>http://localhost:1313/tags/%D1%80%D0%BE%D0%B7a/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/art/rouses-street/</loc>
+    <loc>http://localhost:1313/art/rouses-street/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/art/insomnia-bw/</loc>
+    <loc>http://localhost:1313/art/insomnia-bw/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/art/insomnia/</loc>
+    <loc>http://localhost:1313/art/insomnia/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/portraits/women/</loc>
+    <loc>http://localhost:1313/portraits/women/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/portraits/women/session-02/</loc>
+    <loc>http://localhost:1313/portraits/women/session-02/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/portraits/men/</loc>
+    <loc>http://localhost:1313/portraits/men/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/portraits/men/session-01/</loc>
+    <loc>http://localhost:1313/portraits/men/session-01/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/portraits/women/session-01/</loc>
+    <loc>http://localhost:1313/portraits/women/session-01/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/art/shadow-key/</loc>
+    <loc>http://localhost:1313/art/shadow-key/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/publications/blush-vol-291/</loc>
+    <loc>http://localhost:1313/publications/blush-vol-291/</loc>
     <lastmod>2026-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/publications/darkly-vol-561/</loc>
+    <loc>http://localhost:1313/publications/darkly-vol-561/</loc>
     <lastmod>2026-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://vyakimo.ru/categories/publications/</loc>
+    <loc>http://localhost:1313/categories/publications/</loc>
     <lastmod>2026-03-20T00:00:00+00:00</lastmod>
   </url>
 </urlset>
