@@ -1,50 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Portraits on Vitale Yakimo | Фотограф</title>
-    <link>http://localhost:1313/categories/portraits/</link>
-    <description>Recent content in Portraits on Vitale Yakimo | Фотограф</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ru-RU</language>
-    <managingEditor>bv72006@ya.ru (Vitale Yakimo)</managingEditor>
-    <webMaster>bv72006@ya.ru (Vitale Yakimo)</webMaster>
-    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/portraits/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Улица Роз: Городская элегия</title>
-      <link>http://localhost:1313/art/rouses-street/</link>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author>
-      <guid>http://localhost:1313/art/rouses-street/</guid>
-        <media:content url="http://localhost:1313/art/rouses-street/cover_hu_95bed947fdeffba6.webp" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;http://localhost:1313/art/rouses-street/cover_hu_95bed947fdeffba6.webp&quot; /&gt;
-          &lt;p&gt;🥀 Улица Роз
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Portraits on Vitale Yakimo | Фотограф</title><link>/categories/portraits/</link><description>Recent content in Portraits on Vitale Yakimo | Фотограф</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><managingEditor>bv72006@ya.ru (Vitale Yakimo)</managingEditor><webMaster>bv72006@ya.ru (Vitale Yakimo)</webMaster><lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="/categories/portraits/index.xml" rel="self" type="application/rss+xml"/><item><title>Улица Роз: Городская элегия</title><link>/art/rouses-street/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author><guid>/art/rouses-street/</guid><media:content url="/art/rouses-street/cover_hu_95bed947fdeffba6.webp" type="image/jpeg"/><description>
+&lt;img src="/art/rouses-street/cover_hu_95bed947fdeffba6.webp" /&gt;
+&lt;p&gt;🥀 Улица Роз
 из серии «Городские истории»
 Автор: Vitale Yakimо
-
-
 Кинематографичная фотоистория об одиночестве и ожидании в вечернем городе.
 Серия исследует контраст между холодной урбанистикой и живым чувством.
-От задумчивости на ступенях до финальной точки на ночной скамейке — немой монолог героя на фоне огней большого города.&lt;/p&gt;
-        </description></item>
-    <item>
-      <title>Женский портрет</title>
-      <link>http://localhost:1313/portraits/women/</link>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author>
-      <guid>http://localhost:1313/portraits/women/</guid>
-        <media:content url="http://localhost:1313/portraits/women/cover_hu_d226d3216c0a2544.webp" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;http://localhost:1313/portraits/women/cover_hu_d226d3216c0a2544.webp&quot; /&gt;
-          &lt;p&gt;Женские портреты. Студийные и уличные съёмки.&lt;/p&gt;
-        </description></item>
-    <item>
-      <title>Мужской портрет</title>
-      <link>http://localhost:1313/portraits/men/</link>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author>
-      <guid>http://localhost:1313/portraits/men/</guid>
-        <media:content url="http://localhost:1313/portraits/men/cover_hu_655c035c891b5a55.webp" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;http://localhost:1313/portraits/men/cover_hu_655c035c891b5a55.webp&quot; /&gt;
-          &lt;p&gt;Мужские портреты. Студийные и уличные съёмки.&lt;/p&gt;
-        </description></item>
-  </channel>
-</rss>
+От задумчивости на ступенях до финальной точки на ночной скамейке — немой монолог героя на фоне огней большого города.&lt;/p&gt;</description></item><item><title>Женский портрет</title><link>/portraits/women/</link><pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author><guid>/portraits/women/</guid><media:content url="/portraits/women/cover_hu_d226d3216c0a2544.webp" type="image/jpeg"/><description>
+&lt;img src="/portraits/women/cover_hu_d226d3216c0a2544.webp" /&gt;
+&lt;p&gt;Женские портреты. Студийные и уличные съёмки.&lt;/p&gt;</description></item><item><title>Мужской портрет</title><link>/portraits/men/</link><pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate><author>bv72006@ya.ru (Vitale Yakimo)</author><guid>/portraits/men/</guid><media:content url="/portraits/men/cover_hu_655c035c891b5a55.webp" type="image/jpeg"/><description>
+&lt;img src="/portraits/men/cover_hu_655c035c891b5a55.webp" /&gt;
+&lt;p&gt;Мужские портреты. Студийные и уличные съёмки.&lt;/p&gt;</description></item></channel></rss>
